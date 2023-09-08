@@ -1,7 +1,7 @@
 function avAgeMunich(arr) {
   const munichs = arr.filter((element) => element.city === "Munich");
   return (
-    munichs.reduce((acc, curr) => (acc = acc.score + curr.score)) / //wieso ist das so goofy und acc ein Objekt??//
+    munichs.reduce((acc, curr) => (acc + curr.score),0) / //wieso ist das so goofy und acc ein Objekt??//
     munichs.length
   );
 }

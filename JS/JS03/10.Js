@@ -1,7 +1,9 @@
 function findBest(arr) {
-  return arr.reduce((acc=0, curr) => {
-    curr.score > acc.score ? (acc = curr) : (acc = acc);
-      return acc;
+  //name whack
+  return arr.reduce((acc = 0, curr) => {
+    //use find
+    curr.score > acc.score ? (acc = curr) : (acc = acc); //if besser 
+    return acc;
   });
 }
 

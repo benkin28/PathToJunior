@@ -16,7 +16,7 @@ const obj3 = {
   revenue: 10000000000000,
 };
 
-function sortByProp(arr, propertyName) {
+function sortByProp(arr, propertyName) { //localcompare
   return arr.sort((a, b) => {
     if (a[propertyName] > b[propertyName]) {
       return 1;

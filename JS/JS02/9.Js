@@ -1,6 +1,6 @@
 function splitArray(arr, n) {
     if (n > arr.length) {
-        console.log("Invalid Column");
+        console.log("Invalid Column"); //error --> fix
         return;
     }
     return arr[n-1];

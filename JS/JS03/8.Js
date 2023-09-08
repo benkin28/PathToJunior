@@ -1,4 +1,4 @@
-function o18(arr) {
+function filterPeopleOlderThan18(arr) {
   return arr.filter((element) => element.age > 18);
 }
 

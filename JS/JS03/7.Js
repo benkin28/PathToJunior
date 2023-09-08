@@ -1,7 +1,7 @@
 function product(arr) {
-    return arr.reduce((acc, curr) => acc = acc * curr);
+  return arr.reduce((acc, curr) => acc * curr);
 }
 
-const arr = [1, 2, 3, 4];
+const arr = [6, 6];
 
 console.log(product(arr));

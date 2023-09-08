@@ -1,6 +1,6 @@
-function isprime(n) {
+function isPrime(n) {
   if (n <= 1) {
-    console.log("gib richtig ein");
+    throw new Error("gib richtig ein");
   }
   let prime = true;
   for (i = 2; i < n / 2; i++) {
@@ -10,4 +10,4 @@ function isprime(n) {
   }
   return prime;
 }
-console.log(isprime(1));
+console.log(isPrime(1));

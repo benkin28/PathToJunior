@@ -1,6 +1,6 @@
 function factorial(n) {
   if (n < 0) {
-    throw "hurensohn";
+    throw new Error("gib richtig");
   }
   if (n == 0) {
     return 1;

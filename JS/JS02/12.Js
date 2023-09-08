@@ -5,7 +5,7 @@ map.set("c", 3);
 
 const keys = map.keys();
 
-function stringRep(map) {
+function stringRep(map) { //map hat foreach
   const keys = map.keys();
   let out = "";
   for (let i = 0; i < map.size; i++) {
